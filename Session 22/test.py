@@ -1,7 +1,7 @@
 import logging
 # Cấu hình logging hệ thống
 logging.basicConfig(
-    level=logging.INFO, # CHÚ Ý: Mức độ log hiện tại của hệ thống
+    level=logging.INFO, # Sửa từ WARNING SANG INFO
     format="%(levelname)s: %(message)s"
 )
 logger = logging.getLogger(__name__)
